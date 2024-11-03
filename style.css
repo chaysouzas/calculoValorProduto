@@ -1,0 +1,131 @@
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: rgb(226,117,165);
+    background: linear-gradient(90deg, rgba(226,117,165,1) 0%, rgba(249,212,248,1) 60%);
+
+}
+
+header h1{
+    font-size: 1.5em;
+    text-align: center;
+    background-color: #f5f2f5;
+    margin: 1em;
+    color: #ff03af;
+    border: 2px dashed #ff03af;
+    border-radius: 16px;
+    padding:1em;
+
+}
+
+#produto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 1em auto;
+    
+}
+
+#produto p{
+    max-width: 60%;
+}
+
+#produto img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 1em;
+    box-shadow: 5px 5px 5px ;
+}
+
+img:hover {
+    transform: scale(1.1); /* Aumenta o tamanho da imagem em 10% */
+  }
+
+figure, p, h2, h3{
+    text-align: center;
+    color: #f518af;
+    font-weight: 800;
+    padding: 1em;
+
+  }
+
+  p, h3, figure{
+    font-style: italic;
+    background-color: #f0ecf0d4;
+    margin: 1em;
+    border-radius: 16px;
+    border: 1px dashed ;
+  }
+
+input#comprar{
+    padding: 1em;
+    background-color: #f651c2;
+    border: 1px dashed #ffff;
+    border-radius: 16px;
+    font-style: oblique;
+    font-weight: 600;
+    color: #f6f0f6;
+  }
+
+input#comprar:hover{
+    background-color: #f7bee8;
+    color: #f518af;
+    cursor: pointer;
+}  
+
+#condicoesPagamento{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 1em auto;
+    max-width: 50%;
+}
+
+ul{
+    border-radius: 16px;
+    border: 2px dashed #f518af;
+    padding: 16px;
+    background-color: #f6f0f6;
+
+}
+
+li{
+    font-style: italic;
+    color: #f229b2;
+    text-align: center;
+    padding: 6px;
+}
+
+#escolhaPagamento{
+    display: flex;
+    flex-direction: column;
+    margin: 1em 1em;
+    flex-wrap: wrap;
+    align-items: stretch;
+    align-content: space-around;
+    gap: 1em;
+}
+
+#escolhaPagamento input{
+    padding:1em;
+    background-color: #f651c2;
+    border: 1px dashed #ffff;
+    border-radius: 16px;
+    font-style: oblique;
+    font-weight: 600;
+    color: #f6f0f6;
+    
+   
+}
+
+#escolhaPagamento input:hover{
+    background-color: #f7bee8;
+    color: #f518af;
+    cursor: pointer; 
+}
+
